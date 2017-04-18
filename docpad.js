@@ -8,9 +8,9 @@ module.exports = {
     // Conference info
     conf: {
       name: "Dev Paraná Conference",
-      description: "2016",
-      date: "26 de Novembro",
-      logo: "themes/devparana-conf-2016/img/logo.svg",
+      description: "2017",
+      date: "22 de Julho",
+      logo: "themes/devparana-conf-2017/img/logo.svg",
       // If your event is free, just comment this line
       price: "",
       venue: "SEBRAE MARINGÁ",
@@ -34,117 +34,73 @@ module.exports = {
 
     // Site info
     site: {
-      theme: "devparana-conf-2016",
+      theme: "devparana-conf-2017",
       url: "http://www.devparana.org/conf",
       googleanalytics: "UA-69209115-4"
     },
 
-    // Active sections on the website
-    // to deactivate comment out with '//'
-    // you can also change order here and it will reflect on page
     sections: [
       'about',
       'speakers',
-      'schedule',
+      //'schedule',
       'eventick',
       'sponsors',
       'partners',
       'location'
-      // 'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
       about: "O EVENTO",
-      location: "LOCALIZAÇÃO DO EVENTO",
-      speakers: "OS PALESTRANTES",
+      location: "LOCALIZAÇÃO",
+      speakers: "PALESTRANTES",
       schedule: "CRONOGRAMA",
       sponsors: "PATROCINADORES",
       partners: "APOIO",
-      eventick: "FAÇA SUA INSCRIÇÃO",
+      eventick: "INSCRIÇÃO",
       contact: "CONTATO"
     },
 
     // The speakers
     speakers: [
       {
-        name: "Maujor",
-        photo: "themes/devparana-conf-2016/img/speakers/maujor.jpg",
+        name: "Alê Borba",
+        photo: "themes/devparana-conf-2017/img/speakers/ale_borba.png",
         bio: "",
-        company: "Dinossauro do CSS",
+        company: "Google",
         link: {
-          href: "http://twitter.com/maujor",
-          text: "@maujor"
+          href: "https://github.com/aleborba",
+          text: "@aleborba"
         }
       },
       {
-        name: "Edson Yanaga",
-        photo: "themes/devparana-conf-2016/img/speakers/yanaga.jpg",
+        name: "Otavio Santana",
+        photo: "themes/devparana-conf-2017/img/speakers/otavio.jpg",
+        bio: "Engenheiro de Software na Tomitribe e Committer da Apache",
+        company: "Tomitribe",
+        link: {
+          href: "https://github.com/otaviojava",
+          text: "@otaviojava"
+        }
+      },
+      {
+        name: "Loiane Groner",
+        photo: "themes/devparana-conf-2017/img/speakers/loiane.jpg",
         bio: "",
-        company: "Red Hat",
+        company: "Desenvolvedora fullstack e escritora",
         link: {
-          href: "http://github.com/yanaga",
-          text: "@yanaga"
+          href: "http://loiane.com",
+          text: "@loiane"
         }
       },
       {
-        name: "Jaydson Gomes",
-        photo: "themes/devparana-conf-2016/img/speakers/jaydson.jpg",
-        bio: "Jaydson Gomes tem +de 12 anos de experiência em desenvolvimento Web.",
-        company: "Nasc",
-        link: {
-          href: "http://twitter.com/jaydson",
-          text: "@jaydson"
-        }
-      },
-      {
-        name: "Guilherme Berghauser",
-        photo: "themes/devparana-conf-2016/img/speakers/torto.jpg",
+        name: "Jeferson Fernando Noronha",
+        photo: "themes/devparana-conf-2017/img/speakers/jeferson.jpg",
         bio: "",
-        company: "",
+        company: "LinuxTips",
         link: {
-          href: "https://twitter.com/tortoyo",
-          text: "@tortoyo"
-        }
-      },
-      {
-        name: "Fábio Rogério SJ",
-        photo: "themes/devparana-conf-2016/img/speakers/fabio.jpg",
-        bio: "Fábio Rogério da Silva José​, conhecido como Fábio Rogério SJ nas redes sociais, é desenvolvedor de aplicações web e mobile desde quando o Internet Explorer 7 erá um pesadelo e desenvolver aplicativos híbridos com tecnologias web era um trabalho árduo, ou seja, desde 2007. Atualmente Fábio Rogério trabalha como desenvolvedor Web no Grupo Benner e presta serviço de consultoria e treinamento em desenvolvimento de aplicações web e mobile utilizando tecnologias híbridas. Fábio também é professor, de curso superior, onde ministra as disciplinas de desenvolvimento frontend, desenvolvimento de aplicativos móveis, web design, design de interação e lógica de programação.",
-        company: "",
-        link: {
-          href: "https://twitter.com/fabiorogeriosj",
-          text: "@FabioRogerioSJ"
-        }
-      },
-      {
-        name: "Eduardo Spaki",
-        photo: "themes/devparana-conf-2016/img/speakers/eduardo.jpg",
-        bio: "Arquiteto de Software, atua há 14 anos com desenvolvimento de tecnologias, tendo participado de projetos em diversos países. É especialista em softwares para a Internet e possui MBA em Gerência de Projetos. Já publicou livro e artigos na área de tecnologia e vem palestrando sobre carreira profissional, inovação e TI.",
-        company: "",
-        link: {
-          href: "https://twitter.com/eduardospaki",
-          text: "@eduardospaki"
-        }
-      },
-      {
-        name: "Anderson M Fernandes",
-        photo: "themes/devparana-conf-2016/img/speakers/burnes.jpg",
-        bio: "Mestre em Informática pela UTFPR, Desenvolvedor Web desde 1999, Professor de Graduação e Pós-Graduação, Palestrante e degustador de Bacon. Atua ainda como sócio, desenvolvedor e gestor de e-commerce na Uniti, onde mantem parcerias com as lojas Vida de Programador, Vida de Suporte, Bugginho Developer e o Compra Canibal dos Irmãos Piologo.",
-        company: "Faculdade Alfa",
-        link: {
-          href: "https://twitter.com/professorburnes",
-          text: "@ProfessorBurnes"
-        }
-      },
-      {
-        name: "Munif Gebara Junior",
-        photo: "themes/devparana-conf-2016/img/speakers/munif.jpg",
-        bio: "Possui graduação em Ciência da Computação pela Universidade Estadual de Maringá (1997) e mestrado em Engenharia Elétrica e Informática Industrial pela Universidade Tecnológica Federal do Paraná (2001). Atualmente é professor da Fundação Faculdade de Filosofia Ciências e Letras de Mandaguari e professor de ensino superior Unicesumar e desenvolvedor na GUMGA S/A.",
-        company: "GUMGA S/A",
-        link: {
-          href: "https://twitter.com/munifgebara",
-          text: "@munifgebara"
+          href: "https://www.youtube.com/linuxtips",
+          text: "@badtux_"
         }
       }
     ],
@@ -315,7 +271,7 @@ module.exports = {
     partners: [
       {
         name: "SEBRAE Maringá",
-        logo: "themes/devparana-conf-2016/img/sebrae.png",
+        logo: "themes/devparana-conf-2017/img/sebrae.png",
         url: "http://www.sebraepr.com.br/"
       }
     ],
