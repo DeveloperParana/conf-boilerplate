@@ -7,13 +7,13 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Dev Paraná Conference",
-      description: "2017",
+      name: "Dev Paraná Conference 2017",
+      description: "Conferência para desenvolvedores do Dev Paraná edição 2017",
       date: "22 de Julho",
       logo: "themes/devparana-conf-2017/img/logo.svg",
       // If your event is free, just comment this line
-      price: "",
-      venue: "SEBRAE MARINGÁ",
+      // price: "",
+      venue: "Sebrae",
       address: "Av. Bento Munhoz da Rocha Neto, 1116 - Zona 7",
       city: "Maringá",
       state: "Paraná",
@@ -23,8 +23,8 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Participar",
-        link: "#eventick"
+      text: "FAZER INSCRIÇÃO",
+      link: "#eventick"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -42,11 +42,12 @@ module.exports = {
     sections: [
       'about',
       'speakers',
-      //'schedule',
+      // 'schedule',
       'eventick',
       'sponsors',
       'partners',
-      'location'
+      'location',
+      // 'contact'
     ],
 
     // Labels which you can translate to other languages
@@ -58,14 +59,14 @@ module.exports = {
       sponsors: "PATROCINADORES",
       partners: "APOIO",
       eventick: "INSCRIÇÃO",
-      contact: "CONTATO"
+      // contact: "CONTATO"
     },
 
     // The speakers
     speakers: [
       {
         name: "Alê Borba",
-        photo: "themes/devparana-conf-2017/img/speakers/ale_borba.png",
+        photo: "themes/devparana-conf-2017/img/speakers/aleborba.png",
         bio: "",
         company: "Google",
         link: {
@@ -256,22 +257,27 @@ module.exports = {
     // List of Sponsors
     sponsors: [
       {
-        name: "Sicredi União",
-        logo: "themes/devparana-conf-2016/img/sicredi.png",
-        url: "http://sicredi.com.br"
+        name: "Google Developers",
+        logo: "themes/devparana-conf-2017/img/google-developers.svg",
+        url: "https://developers.google.com"
+      },
+      {
+        name: "Tomitribe",
+        logo: "themes/devparana-conf-2017/img/tomitribe.svg",
+        url: "http://www.tomitribe.com"
       },
       {
         name: "RedHat",
-        logo: "themes/devparana-conf-2016/img/redhat.png",
-        url: "http://redhat.com"
-      },
+        logo: "themes/devparana-conf-2017/img/redhat.svg",
+        url: "https://redhat.com"
+      }
     ],
 
     // List of Partners
     partners: [
       {
         name: "SEBRAE Maringá",
-        logo: "themes/devparana-conf-2017/img/sebrae.png",
+        logo: "themes/devparana-conf-2017/img/sebrae.svg",
         url: "http://www.sebraepr.com.br/"
       }
     ],

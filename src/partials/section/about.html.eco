@@ -1,10 +1,9 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
 <div class="about-item">
-    <img class="speaker-avatar" src="themes/devparana-conf-2016/img/about.jpg">
+    <iframe width="460" height="259" src="https://www.youtube.com/embed/zNS4q2jXr8w?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 <div class="about-item">
     <p>O DevParaná pensando em trazer relevância de conteúdo aos desenvolvedores do nosso estado organiza o segundo DevParaná Conference.</p>
     <p>A conferência tem por objetivo trazer palestrantes que são referência nacional em sua área de atuação, assim como palestrantes que são destaque na comunidade através de uma chamada para submissão de palestras.</p>
-    <p>No total serão 8 talks, 4 de convidados e 4 de pessoas da comunidade.</p>
-    <p>Não deixe de participar deste evento, com certeza será um marco em sua vida assim como na comunidade de software!</p>
+    <p>No total serão 8 talks, 4 de convidados e 4 de pessoas da comunidade. Confira ao lado como foi a edição 2016.</p>
 </div>
