@@ -10,7 +10,7 @@ module.exports = {
       name: "Dev Paraná Conference 2017",
       description: "Conferência para desenvolvedores do Dev Paraná edição 2017",
       date: "22 de Julho",
-      logo: "themes/devparana-conf-2017/img/logo.svg",
+      logo: "themes/devparana-conf-2017/img/logo.png",
       // If your event is free, just comment this line
       // price: "",
       venue: "Sebrae",
@@ -47,7 +47,7 @@ module.exports = {
       'sponsors',
       'partners',
       'location',
-      // 'contact'
+      'contact'
     ],
 
     // Labels which you can translate to other languages
@@ -59,7 +59,7 @@ module.exports = {
       sponsors: "PATROCINADORES",
       partners: "APOIO",
       eventick: "INSCRIÇÃO",
-      // contact: "CONTATO"
+      contact: "CONTATO"
     },
 
     // The speakers
