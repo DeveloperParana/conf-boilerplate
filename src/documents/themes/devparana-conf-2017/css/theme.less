@@ -104,9 +104,7 @@ nav {position: absolute; top: 25px; padding: 28px 0;}
     margin: 10px;
     width: calc(~"50% - 2rem");
     display: inline-block;
-    img {
-      width: 100%;
-    }
+    vertical-align: middle;
   }
 }
 
@@ -238,6 +236,18 @@ nav {position: absolute; top: 25px; padding: 28px 0;}
     background-size: auto 100%;
   }
 }
+
+@media only screen and (max-width : 900px) {
+  .about, .schedule {
+    width: auto;
+    margin-top: 0;
+    .about-item {
+      width: calc(~"100% - 1.6rem");
+      display: block;
+    }
+  }
+}
+
 @media only screen and (max-width : 480px) {
   /* speakers */
   .speaker-photo .photo {box-shadow: 0 0 0 3px rgba(0,0,0,.07);}
@@ -248,23 +258,15 @@ nav {position: absolute; top: 25px; padding: 28px 0;}
     font-weight: bolder;
   }
   .github-link { display: none; }
-  .about, .schedule {
-    width: auto;
-    margin-top: 0;
-    .about-item {
-      width: calc(~"100% - 1.6rem");
-      display: block;
-    }
-  }
   .eventick {
     padding-left: 10px;
     padding-right: 10px;
   }
   .speakers-item {
-  width:calc(~"50% - 0.5rem");
-  .speaker-info {
-    padding-top: 15%;
-    font-size:1.5em;
+    width:calc(~"50% - 0.5rem");
+    .speaker-info {
+      padding-top: 15%;
+      font-size:1.5em;
+    }
   }
-}
 }

@@ -43,7 +43,7 @@ module.exports = {
       'about',
       'speakers',
       // 'schedule',
-      'eventick',
+      // 'eventick',
       'sponsors',
       'partners',
       'location',
@@ -58,7 +58,7 @@ module.exports = {
       schedule: "CRONOGRAMA",
       sponsors: "PATROCINADORES",
       partners: "APOIO",
-      eventick: "INSCRIÇÃO",
+      // eventick: "INSCRIÇÃO",
       contact: "CONTATO"
     },
 
