@@ -1,7 +1,7 @@
 @import "_mixins.less";
 @import "_colors.less";
 @import "_files.less";
-@import 'https://fonts.googleapis.com/css?family=Cabin+Condensed';
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
 
 /* =============================================================================
    MAIN LAYOUT
@@ -11,7 +11,7 @@ html {
   font:normal normal 10px/1.2em helvetica, arial, sans-serif;
   color:@gray-conf;
   text-align: center;
-  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size:0.8em;
 }
 
@@ -39,12 +39,9 @@ nav {position: absolute; top: 25px; padding: 28px 0;}
    HEADER
    ========================================================================== */
 .header {
+  background: url('../img/top_bg.png') repeat-x top;
   background-image: url(@cover-img);
-  background-color: @black-conf;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: cover;
-  min-height: 470px;
+  min-height: 519px;
 }
 .logo-link, .tagline, .call-action-area .price {
   color: #fff;
@@ -55,9 +52,10 @@ nav {position: absolute; top: 25px; padding: 28px 0;}
 .call-action-area .price {color: @pink-devconf;}
 .call-action-area .call-action-link, .btn {
   background-color: @pink-devconf;
-  color: #fff;
-  text-shadow: 0 1px 0 rgba(255,255,255,.5);
-  border-radius: 40px;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-size: 8pt;
 }
 
 .logo-name {
@@ -66,17 +64,6 @@ nav {position: absolute; top: 25px; padding: 28px 0;}
 
 .logo-name .logo {
   width: 100%
-}
-
-.github-link {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 11;
-}
-
-.github-link img {
-  border: 0;
 }
 
 /* =============================================================================

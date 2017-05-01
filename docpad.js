@@ -23,14 +23,9 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-      text: "FAZER INSCRIÇÃO",
-      link: "#eventick"
+        text: "FAZER INSCRIÇÃO",
+        link: "#eventick"
     },
-
-    // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    // forkButton: {
-    //     repository: "https://github.com/braziljs/conf-boilerplate"
-    // },
 
     // Site info
     site: {
