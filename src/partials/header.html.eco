@@ -39,7 +39,7 @@
     {
       version: 1,
       use: ['checkout'],
-      event: 'dev-parana-integracao',
+      event: 'dev-parana-conf-2017',
       lang: 'pt-BR',
       onPurchase: function (path) {
         var el = document.getElementById('el-checkout-button')
