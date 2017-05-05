@@ -260,11 +260,6 @@ module.exports = {
         name: "Tomitribe",
         logo: "themes/devparana-conf-2017/img/tomitribe.svg",
         url: "http://www.tomitribe.com"
-      },
-      {
-        name: "RedHat",
-        logo: "themes/devparana-conf-2017/img/redhat.svg",
-        url: "https://redhat.com"
       }
     ],
 
