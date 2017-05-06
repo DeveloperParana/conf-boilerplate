@@ -39,9 +39,12 @@ nav {position: absolute; top: 25px; padding: 28px 0;}
    HEADER
    ========================================================================== */
 .header {
-  background: url('../img/top_bg.png') repeat-x top;
   background-image: url(@cover-img);
-  min-height: 519px;
+  background-color: @black-conf;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  min-height: 400px;
 }
 .logo-link, .tagline, .call-action-area .price {
   color: #fff;
@@ -53,9 +56,10 @@ nav {position: absolute; top: 25px; padding: 28px 0;}
 .call-action-area .call-action-link, .btn {
   background-color: @pink-devconf;
   color: white;
-  padding: 15px 25px;
-  border-radius: 25px;
-  font-size: 8pt;
+  font-size: 16pt;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  border-radius: 40px;
+  margin-top: 20px;
 }
 
 .logo-name {
