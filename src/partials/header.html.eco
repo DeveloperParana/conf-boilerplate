@@ -25,7 +25,7 @@
         <% end %>
 
         <% if @callToAction: %>
-          <a href="#" id="el-checkout-button" class="call-action-link checkout-button" title="<%= @callToAction.text %>" target="_blank"><%= @callToAction.text %></a>
+          <a href="https://eventloop.com.br/dev-parana-conf-2017" id="el-checkout-button-disabled" class="call-action-link checkout-button" title="<%= @callToAction.text %>" target="_blank"><%= @callToAction.text %></a>
         <% end %>
       </div>
     <% end %>
