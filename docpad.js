@@ -23,8 +23,8 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "FAZER INSCRIÇÃO",
-        link: "#eventick"
+      text: "FAZER INSCRIÇÃO",
+      link: "#eventick"
     },
 
     // Site info
@@ -97,6 +97,46 @@ module.exports = {
         link: {
           href: "https://www.youtube.com/linuxtips",
           text: "@badtux_"
+        }
+      },
+      {
+        name: "Palestrante 5",
+        photo: "themes/devparana-conf-2017/img/submission-speaker.jpg",
+        bio: "",
+        company: "Call for papers",
+        link: {
+          href: "#",
+          text: "Em breve via"
+        }
+      },
+      {
+        name: "Palestrante 6",
+        photo: "themes/devparana-conf-2017/img/submission-speaker.jpg",
+        bio: "",
+        company: "Call for papers",
+        link: {
+          href: "#",
+          text: "Em breve via"
+        }
+      },
+      {
+        name: "Palestrante 7",
+        photo: "themes/devparana-conf-2017/img/submission-speaker.jpg",
+        bio: "",
+        company: "Call for papers",
+        link: {
+          href: "#",
+          text: "Em breve via"
+        }
+      },
+      {
+        name: "Palestrante 8",
+        photo: "themes/devparana-conf-2017/img/submission-speaker.jpg",
+        bio: "",
+        company: "Call for papers",
+        link: {
+          href: "#",
+          text: "Em breve via"
         }
       }
     ],
