@@ -1,6 +1,8 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
 <div class="about-item">
+  <div class="videoWrapper">
     <iframe width="460" height="259" src="https://www.youtube.com/embed/zNS4q2jXr8w?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </div>
 </div>
 <div class="about-item">
     <p>O DevParaná pensando em trazer relevância de conteúdo aos desenvolvedores do nosso estado organiza o segundo DevParaná Conference.</p>

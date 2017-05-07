@@ -35,26 +35,25 @@
 
 <script>
   /* EVENTLOOP API*/
-  (function(w,d,s,options,g,js,fjs){g=w.EventLoop||(w.EventLoop={});options=options||{};(options.use||[]).forEach(function(cur){g[cur]={q:[],ready:function(cb){this.q.push(cb)}};});js=d.createElement(s);fjs=d.getElementsByTagName(s)[0];js.id='eventloop-script-api';js.setAttribute('async', 'async');fjs.parentNode.insertBefore(js,fjs);js.onload=function(){(options.use||[]).forEach(function(cur){g.load(cur, options)})};js.src=(options.devMode?'http://localhost:3000/api/v':'https://eventloop.com.br/api/v') + (options.version||1) + '/index.js';})(window,document,'script',
-    {
-      version: 1,
-      use: ['checkout'],
-      event: 'dev-parana-conf-2017',
-      lang: 'pt-BR',
-      onPurchase: function (path) {
-        var el = document.getElementById('el-checkout-button')
-        el.classList.add('subscribed')
-        el.innerHTML = 'INSCRIÇÃO REALIZADA'
-      }
-    }
-  );
-
-  document.getElementById('el-checkout-button').addEventListener('click', function (event) {
-    window.EventLoop.checkout.ready(function (checkoutModal) {
-      checkoutModal.open()
-    });
-    event.preventDefault();
-  });
+  // (function(w,d,s,options,g,js,fjs){g=w.EventLoop||(w.EventLoop={});options=options||{};(// options.use||[]).forEach(function(cur){g[cur]={q:[],ready:function(cb){this.q.push(// cb)}};});js=d.createElement(s);fjs=d.getElementsByTagName(s)[// 0];js.id='eventloop-script-api';js.setAttribute('async', 'async');fjs.parentNode.insertBefore(// js,fjs);js.onload=function(){(options.use||[]).forEach(function(cur){g.load(cur, // options)})};js.src=(options.devMode?'http://localhost:3000/api/v':'https://eventloop.com.br/api/// v') + (options.version||1) + '/index.js';})(window,document,'script',
+  //   {
+  //     version: 1,
+  //     use: ['checkout'],
+  //     event: 'dev-parana-conf-2017',
+  //     lang: 'pt-BR',
+  //     onPurchase: function (path) {
+  //       var el = document.getElementById('el-checkout-button')
+  //       el.classList.add('subscribed')
+  //       el.innerHTML = 'INSCRIÇÃO REALIZADA'
+  //     }
+  //   }
+  // );
+  // document.getElementById('el-checkout-button').addEventListener('click', function (event) {
+  //   window.EventLoop.checkout.ready(function (checkoutModal) {
+  //     checkoutModal.open()
+  //   });
+  //   event.preventDefault();
+  // });
 </script>
 
 <hr>
