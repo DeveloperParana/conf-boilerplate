@@ -300,6 +300,11 @@ module.exports = {
         name: "Tomitribe",
         logo: "themes/devparana-conf-2017/img/tomitribe.svg",
         url: "http://www.tomitribe.com"
+      },
+      {
+        name: "Rivendel",
+        logo: "themes/devparana-conf-2017/img/rivendel.png",
+        url: "http://www.rivendel.com.br"
       }
     ],
 
