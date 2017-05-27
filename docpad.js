@@ -314,6 +314,11 @@ module.exports = {
         name: "SEBRAE Maringá",
         logo: "themes/devparana-conf-2017/img/sebrae.svg",
         url: "http://www.sebraepr.com.br/"
+      },
+      {
+        name: "Capivara Codes",
+        logo: "themes/devparana-conf-2017/img/capivara.svg",
+        url: "http://capivara.codes/"
       }
     ],
 
