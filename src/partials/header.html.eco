@@ -27,9 +27,6 @@
         <% if @callToAction: %>
           <a href="https://eventloop.com.br/dev-parana-conf-2017" id="el-checkout-button-disabled" class="call-action-link checkout-button" title="<%= @callToAction.text %>" target="_blank"><%= @callToAction.text %></a>
         <% end %>
-
-        <a href="https://goo.gl/forms/c70uTF0WYsD61IYn2" class="call-action-link" title="SUBMETER PALESTRA" target="_blank">CALL FOR PAPERS</a>
-
       </div>
     <% end %>
   </div>
