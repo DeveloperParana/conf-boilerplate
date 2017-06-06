@@ -316,6 +316,11 @@ module.exports = {
         url: "http://www.sebraepr.com.br/"
       },
       {
+        name: "BrazilJS",
+        logo: "themes/devparana-conf-2017/img/braziljs.svg",
+        url: "https://braziljs.org/"
+      },
+      {
         name: "Capivara Codes",
         logo: "themes/devparana-conf-2017/img/capivara.svg",
         url: "http://capivara.codes/"
