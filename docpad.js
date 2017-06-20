@@ -321,6 +321,11 @@ module.exports = {
         url: "https://braziljs.org/"
       },
       {
+        name: "Sicredi",
+        logo: "themes/devparana-conf-2017/img/sicredi.png",
+        url: "https://www.sicrediuniao.com.br/"
+      },
+      {
         name: "Capivara Codes",
         logo: "themes/devparana-conf-2017/img/capivara.svg",
         url: "http://capivara.codes/"
