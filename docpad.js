@@ -100,13 +100,13 @@ module.exports = {
         }
       },
       {
-        name: "Palestrante 5",
-        photo: "themes/devparana-conf-2017/img/submission-speaker.jpg",
+        name: "Leonardo Saraiva",
+        photo: "themes/devparana-conf-2017/img/speakers/vyper.jpg",
         bio: "",
-        company: "Call for papers",
+        company: "Desenvolvedor na Parafuzo",
         link: {
-          href: "#",
-          text: "Em breve via"
+          href: "https://github.com/vyper",
+          text: "@vyper"
         }
       },
       {
