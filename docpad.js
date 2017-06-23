@@ -83,7 +83,7 @@ module.exports = {
         name: "Loiane Groner",
         photo: "themes/devparana-conf-2017/img/speakers/loiane.jpg",
         bio: "",
-        company: "Desenvolvedora fullstack e escritora",
+        company: "Citibank",
         link: {
           href: "http://loiane.com",
           text: "@loiane"
@@ -103,20 +103,20 @@ module.exports = {
         name: "Leonardo Saraiva",
         photo: "themes/devparana-conf-2017/img/speakers/vyper.jpg",
         bio: "",
-        company: "Desenvolvedor na Parafuzo",
+        company: "Parafuzo",
         link: {
           href: "https://github.com/vyper",
           text: "@vyper"
         }
       },
       {
-        name: "Palestrante 6",
-        photo: "themes/devparana-conf-2017/img/submission-speaker.jpg",
+        name: "Rodrigo Nonose",
+        photo: "themes/devparana-conf-2017/img/speakers/nonose.jpg",
         bio: "",
-        company: "Call for papers",
+        company: "Digital Natives",
         link: {
-          href: "#",
-          text: "Em breve via"
+          href: "https://github.com/rhnonose",
+          text: "@rodrigononose"
         }
       },
       {
