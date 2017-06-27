@@ -61,7 +61,7 @@ module.exports = {
     speakers: [
       {
         name: "Alê Borba",
-        photo: "themes/devparana-conf-2017/img/speakers/aleborba.png",
+        photo: "themes/devparana-conf-2017/img/speakers/aleborba.jpg",
         bio: "",
         company: "Google",
         link: {
@@ -72,7 +72,7 @@ module.exports = {
       {
         name: "Otavio Santana",
         photo: "themes/devparana-conf-2017/img/speakers/otavio.jpg",
-        bio: "Engenheiro de Software na Tomitribe e Committer da Apache",
+        bio: "",
         company: "Tomitribe",
         link: {
           href: "https://github.com/otaviojava",
@@ -85,7 +85,7 @@ module.exports = {
         bio: "",
         company: "Citibank",
         link: {
-          href: "http://loiane.com",
+          href: "https://github.com/loiane",
           text: "@loiane"
         }
       },
@@ -116,17 +116,17 @@ module.exports = {
         company: "Digital Natives",
         link: {
           href: "https://github.com/rhnonose",
-          text: "@rodrigononose"
+          text: "@rhnonose"
         }
       },
       {
-        name: "Palestrante 7",
-        photo: "themes/devparana-conf-2017/img/submission-speaker.jpg",
+        name: "Raphael Amorim",
+        photo: "themes/devparana-conf-2017/img/speakers/raphael.jpg",
         bio: "",
-        company: "Call for papers",
+        company: "globo.com",
         link: {
-          href: "#",
-          text: "Em breve via"
+          href: "https://github.com/raphamorim",
+          text: "@raphamorim"
         }
       },
       {
