@@ -130,13 +130,13 @@ module.exports = {
         }
       },
       {
-        name: "Palestrante 8",
-        photo: "themes/devparana-conf-2017/img/submission-speaker.jpg",
+        name: "Sebastian Ferrari",
+        photo: "themes/devparana-conf-2017/img/speakers/sebastian.jpg",
         bio: "",
-        company: "Call for papers",
+        company: "Taller Digital",
         link: {
-          href: "#",
-          text: "Em breve via"
+          href: "https://github.com/sebas5384",
+          text: "@sebas5384"
         }
       }
     ],
