@@ -133,7 +133,7 @@ module.exports = {
         name: "Sebastian Ferrari",
         photo: "themes/devparana-conf-2017/img/speakers/sebastian.jpg",
         bio: "",
-        company: "Taller Digital",
+        company: "Taller",
         link: {
           href: "https://github.com/sebas5384",
           text: "@sebas5384"
