@@ -37,7 +37,7 @@ module.exports = {
     sections: [
       'about',
       'speakers',
-      // 'schedule',
+      'schedule',
       // 'eventick',
       'sponsors',
       'partners',
@@ -50,7 +50,7 @@ module.exports = {
       about: "O EVENTO",
       location: "LOCALIZAÇÃO",
       speakers: "PALESTRANTES",
-      schedule: "CRONOGRAMA",
+      schedule: "AGENDA",
       sponsors: "PATROCINADORES",
       partners: "APOIO",
       // eventick: "INSCRIÇÃO",
@@ -123,7 +123,7 @@ module.exports = {
         name: "Raphael Amorim",
         photo: "themes/devparana-conf-2017/img/speakers/raphael.jpg",
         bio: "",
-        company: "globo.com",
+        company: "Globo.com",
         link: {
           href: "https://github.com/raphamorim",
           text: "@raphamorim"
@@ -144,149 +144,149 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Credenciamento / Café",
+        name: "Credenciamento",
         time: "8h00"
       },
       {
         name: "Abertura",
-        time: "9h15"
+        time: "8h30"
       },
       {
-        name: "Maujor",
-        photo: "themes/devparana-conf-2016/img/speakers/maujor.jpg",
+        name: "Alê Borba",
+        photo: "themes/devparana-conf-2017/img/speakers/aleborba.jpg",
         bio: "",
-        company: "Dinossauro do CSS",
+        company: "Google",
         link: {
-          href: "http://twitter.com/maujor",
-          text: "@maujor"
+          href: "https://github.com/aleborba",
+          text: "@aleborba"
         },
         presentation: {
-          title: "CSS - Uma tecnologia em constante evolução",
-          description: "",
+          title: "",
+          description: "Em breve",
+          time: "08h40"
+        }
+      },
+      {
+        name: "Raphael Amorim",
+        photo: "themes/devparana-conf-2017/img/speakers/raphael.jpg",
+        bio: "Entusiasta da open web e software livre. Software Developer na globo.com e membro da JS foundation e jQuery team. Já trabalhou como desenvolvedor em empresas como Videolog e Petrobras. Em 2015, foi um dos desenvolvedores de software mais notáveis no GitHub, tendo feito contribuições significativas para projetos de código aberto por 500 dias seguidos. Orador em mais de vinte conferências dando palestras sobre tecnologias web como JavaScript / ES6, Web Performance, React e Canvas / WebGL.",
+        company: "Globo.com",
+        link: {
+          href: "https://github.com/raphamorim",
+          text: "@raphamorim"
+        },
+        presentation: {
+          title: "Memory Leaks no NodeJS",
+          description: "A ideia é falar sobre memória no nodejs (V8) e também sobre o spidermonkey (Firefox), problemas comuns e mais complexos de leaks. Apresentando como debugar, detectar e resolver problemas com memória, além de mostrar casos reais de memory leaks da globo.com",
           time: "09h30"
         }
       },
       {
-        name: "Eduardo Spaki",
-        photo: "themes/devparana-conf-2016/img/speakers/eduardo.jpg",
-        bio: "Arquiteto de Software, atua há 14 anos com desenvolvimento de tecnologias, tendo participado de projetos em diversos países. É especialista em softwares para a Internet e possui MBA em Gerência de Projetos. Já publicou livro e artigos na área de tecnologia e vem palestrando sobre carreira profissional, inovação e TI.",
-        company: "",
+        name: "Jeferson F. Noronha",
+        photo: "themes/devparana-conf-2017/img/speakers/jeferson.jpg",
+        bio: "",
+        company: "LinuxTips",
         link: {
-          href: "https://twitter.com/eduardospaki",
-          text: "@eduardospaki"
+          href: "https://www.youtube.com/linuxtips",
+          text: "@badtux_"
         },
         presentation: {
-          title: "Progressive Web Apps, será essa a nova tendência!?",
-          description: "A tecnologia tem suas modas e vive se reinventando. Já tivemos a web, web 2.0, mobile, apps... Mas o que será que virá a seguir? Que tal conhecer um pouco do que os Progressive Web Apps tem para oferecer à este mundo cada vez mais conectado.",
+          title: "",
+          description: "Em breve",
           time: "10h20"
         }
       },
       {
-        name: "Guilherme Berghauser",
-        photo: "themes/devparana-conf-2016/img/speakers/torto.jpg",
-        bio: "",
-        company: "",
+        name: "Leonardo Saraiva",
+        photo: "themes/devparana-conf-2017/img/speakers/vyper.jpg",
+        bio: "Co-fundador do GURU-PR e do WSO2 Brasil! Organizador do Tech Day, que ocorre anualmente em Curitiba. Desenvolvedor louco por tecnologia, atualmente surfando na onda de ruby, rails, hanami, go, grpc, docker, microserviços e kubernetes. Mas com experiência em sinatra, python (django), java, c# e um pouco de tudo, mas já não tão ativamente.",
+        company: "Parafuzo",
         link: {
-          href: "https://twitter.com/tortoyo",
-          text: "@tortoyo"
+          href: "https://github.com/vyper",
+          text: "@vyper"
         },
         presentation: {
-          title: "REACT",
-          description: "Algumas demonstrações da flexibilidade e das possibilidades de sua utilização.",
+          title: "Liberdade e escalabilidade: Microserviços, Kubernetes, gRPC e Docker",
+          description: "Usando Kubernetes e Docker é possível entregar uma arquitetura de microserviços, multi cloud e encontrar a felicidade em forma de escalabilidade e liberdade, sem ficar amarrado e dependente das 'mágicas' de um PaaS.",
           time: "11h10"
         }
       },
       {
-        name: "Almoço",
+        name: "Almoço e Networking",
         time: "12h00"
       },
       {
-        name: "Abertura e sorteios",
-        time: "13h20"
-      },
-      {
-        name: "Fábio Rogério SJ",
-        photo: "themes/devparana-conf-2016/img/speakers/fabio.jpg",
-        bio: "Fábio Rogério da Silva José​, conhecido como Fábio Rogério SJ nas redes sociais, é desenvolvedor de aplicações web e mobile desde quando o Internet Explorer 7 erá um pesadelo e desenvolver aplicativos híbridos com tecnologias web era um trabalho árduo, ou seja, desde 2007. Atualmente Fábio Rogério trabalha como desenvolvedor Web no Grupo Benner e presta serviço de consultoria e treinamento em desenvolvimento de aplicações web e mobile utilizando tecnologias híbridas. Fábio também é professor, de curso superior, onde ministra as disciplinas de desenvolvimento frontend, desenvolvimento de aplicativos móveis, web design, design de interação e lógica de programação.",
-        company: "",
+        name: "Otávio Santana",
+        photo: "themes/devparana-conf-2017/img/speakers/otavio.jpg",
+        bio: "Otávio Santana is a developer and enthusiast of open source. He is an evangelist and practitioner of agile philosophy and polyglot development in Brazil. Santana is a JUG leader of JavaBahia and SouJava, and a strong supporter of Java communities in Brazil, where he also leads the BrasilJUGs initiative to incorporate Brazilian JUGs into joint activities. He is a cocreator and is also responsible for the Linguagil Group, merger of Java, Ruby, Python, and Agile groups that promotes agility across language-focused communities.",
+        company: "Tomitribe",
         link: {
-          href: "https://twitter.com/fabiorogeriosj",
-          text: "@FabioRogerioSJ"
+          href: "https://github.com/otaviojava",
+          text: "@otaviojava"
         },
         presentation: {
-          title: "Desenvolvimento híbrido para mobile e desktop",
-          description: "Passamos por muitas mudanças na evolução das plataformas de interação entre sistemas e usuários. Quando migramos do desktop para web um mundo de possibilidades, para os desenvolvedores, foi criado e hoje vivemos a expansão de aplicações web para o desktop, mas o que acontece com o mundo de possibilidades? Desenvolver aplicações híbridas é trazer todo o poder das tecnologias web para o desktop e mobile.",
-          time: "13h30"
+          title: "Cassandra – NoSQL, NoLimits!",
+          description: "Apache Cassandra é um altamente escalável, alta performance, banco de dados distribuído e desenhado para um alto volume de dados com alta disponibilidade sem pontos de falha. Cassandra tem comportamentos particulares como User Defined Type, Cassandra Query language e nível de consistência que faz o Cassandra único. Essa apresentação cobrirá sobre esse banco de dados, arquitetura, boas práticas e quando e como utilizar essa tecnologia de banco de dados.",
+          time: "14h00"
         }
       },
       {
-        name: "Jaydson Gomes",
-        photo: "themes/devparana-conf-2016/img/speakers/jaydson.jpg",
-        bio: "Jaydson Gomes tem +de 12 anos de experiência em desenvolvimento Web.",
-        company: "Nasc",
+        name: "Rodrigo Nonose",
+        photo: "themes/devparana-conf-2017/img/speakers/nonose.jpg",
+        bio: "Desenvolvedor de Software na Digital Natives, atualmente usando Elixir",
+        company: "Digital Natives",
         link: {
-          href: "http://twitter.com/jaydson",
-          text: "@jaydson"
+          href: "https://github.com/rhnonose",
+          text: "@rhnonose"
         },
         presentation: {
-          title: "Como ser um bom dev FrontEnd em 2017",
-          description: "Nos últimos o chamado desenvolvimento FrontEnd nasceu e cresceu de tal maneira que, para muitos, atingiu demasiada complexidade. De fato, a evolução do JavaScript, do HTML e do CSS, resultou no nascimento de uma variedade de novos conceitos, ferramentas, bibliotecas e frameworks. Como se manter atualizado e relevante em um ambiente tão volátil? Como ser um bom desenvolvedor FrontEnd? Nesta palestra Jaydson irá mostrar sua visão do mundo FrontEnd e o que é necessário para se tornar um bom desenvolvedor FrontEnd em 2017.",
-          time: "15h10"
+          title: "Programação Funcional na web com Elixir e Elm",
+          description: "O paradigma funcional está cada vez mais em vista recentemente e com boa razão: diversas linguagens e frameworks têm trazido um ponto de vista diferente para se resolver os problemas inerentes do desenvolvimento web. Nesta apresentação, pretende-se ilustrar conceitualmente como o as linguagens Elixir (backend) e Elm (frontend) resolvem os problemas mais comuns de uma maneira elegante e compreensível.",
+          time: "14h50"
         }
       },
       {
-        name: "Munif Gebara Junior",
-        photo: "themes/devparana-conf-2016/img/speakers/munif.jpg",
-        bio: "Possui graduação em Ciência da Computação pela Universidade Estadual de Maringá (1997) e mestrado em Engenharia Elétrica e Informática Industrial pela Universidade Tecnológica Federal do Paraná (2001). Atualmente é professor da Fundação Faculdade de Filosofia Ciências e Letras de Mandaguari e professor de ensino superior Unicesumar e desenvolvedor na GUMGA S/A.",
-        company: "GUMGA S/A",
+        name: "Coffee Break e Networking",
+        time: "15h40"
+      },
+      {
+        name: "Sebastian Ferrari",
+        photo: "themes/devparana-conf-2017/img/speakers/sebastian.jpg",
+        bio: "Desenvolvedor / empreendedor apaixonado por web desde 2005 e amante do \"Lean Thinking\", sempre utilizando tecnologias Open Source como PHP, Javascript, GNU/Linux e banco de dados NoSQL como MongoDB e Apache Solr. Forte background em Ops (Infra). Membro e colaborador da comunidade Drupal, ReactJS e Javascript colaborando com código e organização de eventos. CTO e Co-fundador da Taller (taller.net.br).",
+        company: "Taller",
         link: {
-          href: "https://twitter.com/munifgebara",
-          text: "@munifgebara"
+          href: "https://github.com/sebas5384",
+          text: "@sebas5384"
         },
         presentation: {
-          title: "Introdução a Microserviços",
-          description: "A era de grandes sistemas monolíticos esta acabando, sua manutenção, sua homogeneidade em tecnologias, suas necessidades específicas não tem mais espaço no mundo heterogêneo atual. Com a utilização de microserviços é possível criar soluções realmente reutulizáveis, heterogêneas e independentes de tecnologias. Esta paletra tem o objetivo de descrever as tecnologias de microserviços mostrando os conceitos e implementações da NetFlix utilizando como exemplo Spring e Java .",
-          time: ""
+          title: "Redux to the bones",
+          description: "O bom funcionamento das aplicações no front-end dependem de uma arquitetura que permita lidar com todos os eventos e interações complexas que seus usuários realizam. Se você já tentou usar algo como MVC, MV* ou Flux, pode ser que tenha ouvido falar do Redux ou já esteja usando. Saiba como realmente funciona e descubra os paradigmas da programação funcional utilizados na sua criação. Quais são seus benefícios, e entenda porque precisa gerenciar o estado de sua aplicação de maneira previsível. Para entender melhor como o Redux funciona, vamos criar uma versão simples do Redux, desde a criação da Store até os Enahancers passando por Middlewares e seus Reducers.",
+          time: "16h40"
         }
       },
       {
-        name: "Coffee Break",
-        time: "16h00"
-      },
-      {
-        name: "Anderson M Fernandes",
-        photo: "themes/devparana-conf-2016/img/speakers/burnes.jpg",
-        bio: "Mestre em Informática pela UTFPR, Desenvolvedor Web desde 1999, Professor de Graduação e Pós-Graduação, Palestrante e degustador de Bacon. Atua ainda como sócio, desenvolvedor e gestor de e-commerce na Uniti, onde mantem parcerias com as lojas Vida de Programador, Vida de Suporte, Bugginho Developer e o Compra Canibal dos Irmãos Piologo.",
-        company: "Faculdade Alfa",
+        name: "Loiane Groner",
+        photo: "themes/devparana-conf-2017/img/speakers/loiane.jpg",
+        bio: "Dev FullStack @ Citi e é autora de 7 livros publicados mundialmente em inglês. Nas horas vagas publica cursos gratuitos em loiane.training",
+        company: "Citibank",
         link: {
-          href: "https://twitter.com/professorburnes",
-          text: "@ProfessorBurnes"
+          href: "https://github.com/loiane",
+          text: "@loiane"
         },
         presentation: {
-          title: "Realidade: Virtual ou Aumentada?",
-          description: "Palestra sobre os temas Realidade Virtual e Aumentada, diferenças e aplicações para Web e Dispositivos Móveis. Nesta palestra são apresentados ao público de maneira prática o funcionamento, utilizando um Óculos de RV e o Sphero com um game com RA (https://www.youtube.com/watch?v=UPn3jVGQw68), além de discorrer sobre o sucesso do Pokemon Go e ferramentas de desenvolvimento Web.",
-          time: "16h30"
+          title: "",
+          description: "Em breve",
+          time: "17h10"
         }
       },
       {
-        name: "Edson Yanaga",
-        photo: "themes/devparana-conf-2016/img/speakers/yanaga.jpg",
-        bio: "",
-        company: "Red Hat",
-        link: {
-          href: "http://github.com/yanaga",
-          text: "@yanaga"
-        },
-        presentation: {
-          title: "DevOps e Containers: como o Open Source está mudando a entrega de software",
-          description: "Nesse novo mundo com novos modelos econômicos surgindo nós temos que entregar software em produção cada vez melhor, mais rápido e de modo mais seguro. DevOps é o movimento atual para conseguirmos alcançar esse objetivo, e Containers é uma das tecnologias que fazem parte de toda essa inovação. Venha aprender como Containers e diversas ferramentas Open Source estão habilitando o movimento de DevOps para entregar software mais rápido em produção.",
-          time: "17h30"
-        }
+        name: "Encerramento e Sorteios",
+        time: "18h00"
       },
       {
-        name: "Encerramento",
+        name: "Happy Hour e Networking",
         time: "18h30"
-      },
+      }
     ],
 
     // List of Sponsors
