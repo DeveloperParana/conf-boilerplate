@@ -176,8 +176,8 @@ module.exports = {
           text: "@raphamorim"
         },
         presentation: {
-          title: "Memory Leaks no NodeJS",
-          description: "A ideia é falar sobre memória no nodejs (V8) e também sobre o spidermonkey (Firefox), problemas comuns e mais complexos de leaks. Apresentando como debugar, detectar e resolver problemas com memória, além de mostrar casos reais de memory leaks da globo.com",
+          title: "",
+          description: "Em breve",
           time: "09h30"
         }
       },
