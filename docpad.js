@@ -176,8 +176,8 @@ module.exports = {
           text: "@raphamorim"
         },
         presentation: {
-          title: "",
-          description: "Em breve",
+          title: "Merging Products with Components",
+          description: "Nesta palestra, veremos o case da plataforma de vídeos da globo.com, onde em diversos produtos com times diferentes havia a necessidade de unificar tanto componentes visuais quanto fonte de dados (que são baseadas em APIs diferentes, de produtos diferentes [globoplay, globosatplay, sportv, telecine…]), logo surgiu uma plataforma de componentes dentro da área de vídeos da globocom. A ideia é contar sobre as escolhas de arquitetura e de nível técnico voltadas para atender diversos produtos, times, fontes de dados.",
           time: "09h30"
         }
       },
