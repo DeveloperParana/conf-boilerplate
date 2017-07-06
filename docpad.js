@@ -177,7 +177,7 @@ module.exports = {
         },
         presentation: {
           title: "Merging Products with Components",
-          description: "Nesta palestra, veremos o case da plataforma de vídeos da globo.com, onde em diversos produtos com times diferentes havia a necessidade de unificar tanto componentes visuais quanto fonte de dados (que são baseadas em APIs diferentes, de produtos diferentes [globoplay, globosatplay, sportv, telecine…]), logo surgiu uma plataforma de componentes dentro da área de vídeos da globocom. A ideia é contar sobre as escolhas de arquitetura e de nível técnico voltadas para atender diversos produtos, times, fontes de dados.",
+          description: "Nesta palestra, veremos o case da plataforma de vídeos da globo.com, onde em diversos produtos com times diferentes havia a necessidade de unificar tanto componentes visuais quanto fonte de dados (que são baseadas em APIs diferentes, de produtos diferentes [globoplay, globosatplay, sportv, telecine…]), logo surgiu uma plataforma de componentes dentro da área de vídeos da globo.com. A ideia é contar sobre as escolhas de arquitetura e de nível técnico voltadas para atender diversos produtos, times, fontes de dados.",
           time: "09h30"
         }
       },
@@ -191,8 +191,8 @@ module.exports = {
           text: "@badtux_"
         },
         presentation: {
-          title: "",
-          description: "Em breve",
+          title: "Descomplicando o Docker",
+          description: "Vamos abordar de maneira muito leve e divertida tudo o que você precisa saber para criar, administrar e escalar containers utilizando Docker! Traga seu notebook, pois como sempre será prático! #VAIIII",
           time: "10h20"
         }
       },
