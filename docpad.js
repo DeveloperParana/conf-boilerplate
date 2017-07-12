@@ -309,6 +309,11 @@ module.exports = {
         name: "Rivendel",
         logo: "themes/devparana-conf-2017/img/rivendel.png",
         url: "http://www.rivendel.com.br"
+      },
+      {
+        name: "Globo.com",
+        logo: "themes/devparana-conf-2017/img/globo.png",
+        url: "http://dev.globo.com"
       }
     ],
 
