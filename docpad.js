@@ -152,17 +152,17 @@ module.exports = {
         time: "8h30"
       },
       {
-        name: "Leonardo Saraiva",
-        photo: "themes/devparana-conf-2017/img/speakers/vyper.jpg",
-        bio: "Co-fundador do GURU-PR e do WSO2 Brasil! Organizador do Tech Day, que ocorre anualmente em Curitiba. Desenvolvedor louco por tecnologia, atualmente surfando na onda de ruby, rails, hanami, go, grpc, docker, microserviços e kubernetes. Mas com experiência em sinatra, python (django), java, c# e um pouco de tudo, mas já não tão ativamente.",
-        company: "Parafuzo",
+        name: "Rodrigo Nonose",
+        photo: "themes/devparana-conf-2017/img/speakers/nonose.jpg",
+        bio: "Desenvolvedor de Software na Digital Natives, atualmente usando Elixir",
+        company: "Digital Natives",
         link: {
-          href: "https://github.com/vyper",
-          text: "@vyper"
+          href: "https://github.com/rhnonose",
+          text: "@rhnonose"
         },
         presentation: {
-          title: "Liberdade e escalabilidade: Microserviços, Kubernetes, gRPC e Docker",
-          description: "Usando Kubernetes e Docker é possível entregar uma arquitetura de microserviços, multi cloud e encontrar a felicidade em forma de escalabilidade e liberdade, sem ficar amarrado e dependente das 'mágicas' de um PaaS.",
+          title: "Programação Funcional na web com Elixir e Elm",
+          description: "O paradigma funcional está cada vez mais em vista recentemente e com boa razão: diversas linguagens e frameworks têm trazido um ponto de vista diferente para se resolver os problemas inerentes do desenvolvimento web. Nesta apresentação, pretende-se ilustrar conceitualmente como o as linguagens Elixir (backend) e Elm (frontend) resolvem os problemas mais comuns de uma maneira elegante e compreensível.",
           time: "08h40"
         }
       },
@@ -182,17 +182,17 @@ module.exports = {
         }
       },
       {
-        name: "Rodrigo Nonose",
-        photo: "themes/devparana-conf-2017/img/speakers/nonose.jpg",
-        bio: "Desenvolvedor de Software na Digital Natives, atualmente usando Elixir",
-        company: "Digital Natives",
+        name: "Leonardo Saraiva",
+        photo: "themes/devparana-conf-2017/img/speakers/vyper.jpg",
+        bio: "Co-fundador do GURU-PR e do WSO2 Brasil! Organizador do Tech Day, que ocorre anualmente em Curitiba. Desenvolvedor louco por tecnologia, atualmente surfando na onda de ruby, rails, hanami, go, grpc, docker, microserviços e kubernetes. Mas com experiência em sinatra, python (django), java, c# e um pouco de tudo, mas já não tão ativamente.",
+        company: "Parafuzo",
         link: {
-          href: "https://github.com/rhnonose",
-          text: "@rhnonose"
+          href: "https://github.com/vyper",
+          text: "@vyper"
         },
         presentation: {
-          title: "Programação Funcional na web com Elixir e Elm",
-          description: "O paradigma funcional está cada vez mais em vista recentemente e com boa razão: diversas linguagens e frameworks têm trazido um ponto de vista diferente para se resolver os problemas inerentes do desenvolvimento web. Nesta apresentação, pretende-se ilustrar conceitualmente como o as linguagens Elixir (backend) e Elm (frontend) resolvem os problemas mais comuns de uma maneira elegante e compreensível.",
+          title: "Liberdade e escalabilidade: Microserviços, Kubernetes, gRPC e Docker",
+          description: "Usando Kubernetes e Docker é possível entregar uma arquitetura de microserviços, multi cloud e encontrar a felicidade em forma de escalabilidade e liberdade, sem ficar amarrado e dependente das 'mágicas' de um PaaS.",
           time: "10h20"
         }
       },
@@ -214,6 +214,10 @@ module.exports = {
       {
         name: "Almoço e Networking",
         time: "12h00"
+      },
+      {
+        name: "Lightning talks",
+        time: "13h30"
       },
       {
         name: "Otávio Santana",
