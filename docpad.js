@@ -80,13 +80,13 @@ module.exports = {
         }
       },
       {
-        name: "Loiane Groner",
-        photo: "themes/devparana-conf-2017/img/speakers/loiane.jpg",
+        name: "Gustavo Costa",
+        photo: "themes/devparana-conf-2017/img/speakers/gustavo.jpg",
         bio: "",
-        company: "Citibank",
+        company: "Developer",
         link: {
-          href: "https://github.com/loiane",
-          text: "@loiane"
+          href: "https://github.com/GustavoCostaW",
+          text: "@GustavoCostaW"
         }
       },
       {
@@ -269,17 +269,17 @@ module.exports = {
         }
       },
       {
-        name: "Loiane Groner",
-        photo: "themes/devparana-conf-2017/img/speakers/loiane.jpg",
-        bio: "Dev FullStack @ Citi e é autora de 7 livros publicados mundialmente em inglês. Nas horas vagas publica cursos gratuitos em loiane.training",
-        company: "Citibank",
+        name: "Gustavo Costa",
+        photo: "themes/devparana-conf-2017/img/speakers/gustavo.jpg",
+        bio: "Estudante, Desenvolvedor Front-End, Cafécolatra, Mobile Developer, @ApacheCordova Expert, @Google Organizer, @BlackBerry Elite, Hardstyle Fanatic",
+        company: "Developer",
         link: {
-          href: "https://github.com/loiane",
-          text: "@loiane"
+          href: "https://github.com/GustavoCostaW",
+          text: "@GustavoCostaW"
         },
         presentation: {
-          title: "",
-          description: "Em breve",
+          title: "Change detection em Angular e sua reinvenção",
+          description: "{{binding}} de dados na view é uma caracteristica que qualquer framework front-end moderno possui e que hoje não conseguimos viver sem, mas como o Angular sabe como e quando atualizar esses valores? Parece mágica, mas envolve event loop, zones, assincronismo, dados imutaveis, programação reativa, codigo monomórfico... Mas por que eu preciso saber o que há/acontece debaixo do capô? Nós iremos entender os milhares benefícios de ter uma detecção de mudança mais inteligente utilizando todos os recursos que a nova versão do framework disponibiliza para nós, e claro o quanto isso irá impactar na performance da sua aplicação",
           time: "17h30"
         }
       },
